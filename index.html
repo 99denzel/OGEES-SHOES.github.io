@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OGEE Sneakers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="navTop">
+            <!-- Hamburger Icon for mobile -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>   
+        
+        <div class="navbar" id="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+        </div>
+        
+        <div class="logo">
+            <img src="logo.jpeg" width="69" height="69" alt="Sneakers Logo">
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Step Up Your Style</h1>
+            <p>Discover the latest collection of sneakers that redefine comfort and fashion.</p>
+            <a href="#products" class="cta">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Product Slider -->
+    <section id="products" class="product-slider">
+        <h2>Our Top Picks</h2>
+        <div class="slider" id="slider">
+            <div class="slider-item">
+                <img src="air.png" alt="Air Force Sneakers">
+                <h3>Air Force</h3>
+                <p>GHC 699</p>
+               <h4> <button class="buy-btn">Buy Now</button> </h4>
+            </div>
+            <div class="slider-item">
+            </div>
+            <div class="slider-item">
+                <img src="blazer2.png" alt="Blazer Sneakers">
+                <h3>Blazer</h3>
+                <p>GHC 500</p>
+            <h4>    <button class="buy-btn">Buy Now</button></h4>
+            </div>
+            <div class="slider-item">
+                <img src="crater1.png" alt="Crater Sneakers">
+                <h3>Crater</h3>
+                <p>GHC 480</p>
+             <h4>  <button class="buy-btn">Buy Now</button></h4>
+            </div>
+            <div class="slider-item">
+                <img src="hippie1.png" alt="Hippie Sneakers">
+                <h3>Hippie</h3>
+                <p>GHC 649</p>
+             <h4>  <button class="buy-btn">Buy Now</button> </h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At OGEE Sneakers, we are dedicated to delivering the best footwear for every occasion. Combining cutting-edge design with unparalleled comfort, our sneakers stand out in both quality and style.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 OGEE Sneakers. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>
+
